@@ -21,6 +21,17 @@ importlib.metadata 版本: 8.5.0
 
 ## 說明
 - 以google-bert/bert-base-chinese預訓練模型為基準微調，使用模型進行情緒分類，分成8類情緒。
+```
+    "平淡語氣": 0,
+    "關切語調": 1,
+    "開心語調": 2,
+    "憤怒語調": 3,
+    "悲傷語調": 4,
+    "疑問語調": 5,
+    "驚奇語調": 6,
+    "厭惡語調": 7
+```
+
 - 預測以下文字，並且輸出預測的結果，以及 score (confidence，取得小數點後面第 2 位):
 ```
   texts = [
@@ -33,5 +44,9 @@ importlib.metadata 版本: 8.5.0
 ```
 
 ## 成果
+- Youtube
+
+
+- Result
 <img width="461" alt="image" src="https://github.com/user-attachments/assets/3ace4619-2a17-4b14-a8bb-4f425de4d6f8" />
 
