@@ -1,4 +1,5 @@
-# BDSE36_NLP -- 中文句子情緒分類
+# BDSE36_NLP -- 模型微調練習
+## 中文句子情緒分類
 
 ## 訓練資料來源
 - [Datasets:Johnson8187/Chinese_Multi-Emotion_Dialogue_Dataset](https://huggingface.co/datasets/Johnson8187/Chinese_Multi-Emotion_Dialogue_Dataset)
